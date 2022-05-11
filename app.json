@@ -1,23 +1,26 @@
 {
-    "name": "LuciferMoringstar_Robot",
-    "description": "Super Fast Telegram Auto Filter Bot",
-    "logo": "https://telegra.ph/file/4b5095e9ce77a82e56a45.jpg",
+    "name": "IMDb-Movie-Bot",
+    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
-      "best",
-      "telegarm",
-      "auto",
+      "telegram",
+      "auto-filter",
       "filter",
-      "bot"
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
     ],
-    "website": "https://www.youtube.com/channel/UCohk_mpuW8SpgZMyOzRdKcA",
-    "repository": "https://github.com/bossstory/LuciferMoringstar-Robot",
+    "website": "https://github.com/JOSProjects/IMDb-Movie-Bot",
+    "repository": "https://github.com/JOSProjects/IMDb-Movie-Bot",
     "addons": [],
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
     "formation": {
         "worker": {
             "quantity": 1,
