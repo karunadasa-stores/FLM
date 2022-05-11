@@ -1,0 +1,27 @@
+{
+    "name": "LuciferMoringstar_Robot",
+    "description": "Super Fast Telegram Auto Filter Bot",
+    "logo": "https://telegra.ph/file/4b5095e9ce77a82e56a45.jpg",
+    "stack": "container",
+    "keywords": [
+      "best",
+      "telegarm",
+      "auto",
+      "filter",
+      "bot"
+    ],
+    "website": "https://www.youtube.com/channel/UCohk_mpuW8SpgZMyOzRdKcA",
+    "repository": "https://github.com/bossstory/LuciferMoringstar-Robot",
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
